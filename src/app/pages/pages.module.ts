@@ -8,16 +8,20 @@ import { RountingModule } from './routing.module';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 
+//Modules
+import { SharedModule } from "../shared/shared.module";
+
 
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    DetailsComponent
-  ],
-  imports: [
-    CommonModule,
-    RountingModule
-  ]
+    declarations: [
+        HomeComponent,
+        DetailsComponent
+    ],
+    imports: [
+        CommonModule,
+        RountingModule,
+        SharedModule
+    ]
 })
 export class PagesModule { }

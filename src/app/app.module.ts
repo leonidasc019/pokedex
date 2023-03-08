@@ -8,12 +8,13 @@ import { AppComponent } from './app.component';
 // Meus Modules
 import { PagesModule } from './pages/pages.module';
 
-//Components
 
+//Components
+import { PokeHeaderComponent } from './shared/poke-header/poke-header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
