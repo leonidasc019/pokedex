@@ -40,11 +40,11 @@ $padding: rem-calc(20);
             justify-content: center;
             height: rem-calc(90);
             width: rem-calc(110);
+            background-image: url('../../../assets/bg/background-list-pokemons.svg');
+            background-repeat: no-repeat;
+            margin-left: rem-calc(170);
             img {
-                position: relative;
                 width: rem-calc(80);
-                left: 170px;
-                bottom: 30px;
             }
         }
     }
