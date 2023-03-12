@@ -1,6 +1,6 @@
 
 #AINDA EM DESENVOLVIMENTO
-![Pokemon](https://github.com/leonidasc019/pokedex/blob/2ddb413e32a251f19b39fa07411910eaaac3205e/src/assets/pokemonbg.png)
+![Pokemon](https://github.com/leonidasc019/pokedex/blob/493c5d9461180b485b6b90625b88e6056051ae9a/src/assets/pokemonbg.png)
 # Sobre o projeto
 
 https://pokedex019.netlify.app
