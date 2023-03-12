@@ -1,0 +1,28 @@
+<poke-search (emmitSearch)="getPokemons($event)"></poke-search>
+
+<section class="listagem">
+    <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
+        <a class="pokemon" *ngIf="pokemon.status">
+            <section class="pokemon_status">
+                <h2>
+                    <a [routerLink]="['details', pokemon.status.id]">{{ pokemon.name }}</a>
+                </h2>
+                <ul>
+                    <li *ngFor="let value of pokemon.status.types">
+                        {{value.type.name}}
+                    </li>
+                    <li>
+                        {{pokemon.status.weight/10}}KG
+                    </li>
+                    <li class="bshiny">Shiny</li>
+                </ul>
+
+                <section class="pokemon_image">
+                    <img [src]="pokemon.status.sprites.front_default" [alt]="pokemon.name">
+                    <input type="checkbox" id="btnControl" />
+                    <label class="btn" for="btnControl"><img class="ofplay" [src]="pokemon.status.sprites.front_shiny" [alt]="pokemon.name"/></label>
+                </section>
+            </section>
+        </a>
+    </ng-template>
+</section>
