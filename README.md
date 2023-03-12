@@ -1,15 +1,11 @@
 
 #AINDA EM DESENVOLVIMENTO
-
+![Pokemon](https://github.com/leonidasc019/pokedex/src/logo.svg)
 # Sobre o projeto
 
 https://pokedex019.netlify.app
 
 É meu primeiro projeto utilizando o AngularV15, onde atravéz de um curso que estou fazendo estou desenvolvendo utilizando todos conhecimentos já mostrados.
-
-## Layout web
-![Pokemon](https://github.com/leonidasc019/pokedex/src/logo.svg)
-
 
 # Autor
 
