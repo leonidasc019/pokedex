@@ -1,1 +1,30 @@
-<p>details works!</p>
+<poke-header></poke-header>
+
+<main>
+    <section class="pokemon_type">
+        <ul>
+            <li *ngFor="let value of pokemon[0].types">
+                {{value.type.name}}
+            </li>
+            <li>
+                {{pokemon[0].weight/10}}KG
+            </li>
+        </ul>
+    </section>
+    <section class="bg_dex">
+        <div class="bg_pk">
+            <section class="pokemon_sprite">
+                <img [src]="pokemon[0].sprites.front_default" alt="pokemon[0].name">
+                <input type="checkbox" id="btnControl" />
+                <label class="btn" for="btnControl"><img class="ofplay" [src]="pokemon[0].sprites.front_shiny"/></label>
+            </section>
+        </div>
+        <div class="bg_inf">
+            <section class="pokemon_names">
+                <h1>{{pokemon[0].name}}</h1>
+                <h2>{{pokemon[1].names[0].name}}</h2>
+            </section>
+        </div>
+
+    </section>
+</main>
