@@ -24,6 +24,16 @@
                 <h1>{{pokemon[0].name}}</h1>
                 <h2>{{pokemon[1].names[0].name}}</h2>
             </section>
+            <section class="pokemon_stats">
+                <ul>
+                    <li *ngFor="let value of pokemon[0].stats">
+                        {{value.stat.name}}
+                        <strong>
+                          {{value.base_stat}}
+                       </strong>
+                    </li>
+                </ul>
+            </section>
         </div>
 
     </section>
